@@ -1,15 +1,15 @@
 # SCA-Cloud-School-Application
 A node application that uses a Docker container
 #STEPS TO RUN THIS APPLICATION
--Run the application with this command below: 
+- Run the application with this command below: 
 ```
 sudo docker run -p 49160:8080 -d deborahemeni/sca-cloud-app
 ```
--Get the container ID with this command below:
+- Get the container ID with this command below:
 ```
 sudo docker ps
 ```
--Print the Output of the Application with this command below:
+- Print the Output of the Application with this command below:
 ```
 sudo docker logs <container id>
 ```
@@ -25,7 +25,7 @@ Example of the output of this command above
 CONTAINER ID   IMAGE                        COMMAND                  CREATED         STATUS         PORTS                     NAMES
 b36b8b722916   deborahemeni/sca-cloud-app   "docker-entrypoint.s…"   7 minutes ago   Up 7 minutes   0.0.0.0:49160->8080/tcp   lucid_hertz
 ```
--From the output of this command above, copy the number under the PORTS heading to the right before the forward slash.
+- From the output of this command above, copy the number under the PORTS heading to the right before the forward slash.
 Then call the app using 
 ```
 curl -i <the number you copied>
