@@ -5,8 +5,12 @@ To test this application,get the port of the app that Docker mapped by running t
 ```
 sudo docker ps
 ```
-From the output of this command ran, copy the number under the PORT to the right before the forward slash.
+From the output of this command above, copy the number under the PORT to the right before the forward slash.
 Then call the app using 
 ```
 curl -i <the number you copied>
 ```
+and this will output the text \Welcome to SCA Cloud School Application\i
+
+For deployment to dockerhub;
+This command \sudo docker push deborahemeni/sca-cloud-app\i was run and the docker image /deborahemeni/sca-cloud-app/i was pushed to dockerhub which can be accessed via this link https://hub.docker.com/repository/docker/deborahemeni/sca-cloud-app 
