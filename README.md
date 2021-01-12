@@ -13,4 +13,6 @@ curl -i <the number you copied>
 and this will output the text **Welcome to SCA Cloud School Application**
 
 For deployment to dockerhub;
-This command `sudo docker push deborahemeni/sca-cloud-app` was run and the docker image `deborahemeni/sca-cloud-app` was pushed to [dockerhub which can be accessed via this link] (https://hub.docker.com/repository/docker/deborahemeni/sca-cloud-app) 
+This command, 
+`sudo docker push deborahemeni/sca-cloud-app`
+was run and the docker image `deborahemeni/sca-cloud-app` was pushed to dockerhub which can be accessed via this link (https://hub.docker.com/repository/docker/deborahemeni/sca-cloud-app) 
