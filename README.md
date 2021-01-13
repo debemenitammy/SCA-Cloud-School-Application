@@ -15,7 +15,7 @@ sudo docker logs <container id>
 ```
 Example of the output of this command above `Running on http://0.0.0.0:8080`
 
-#STEPS TO TEST THIS APPLICATION
+# STEPS TO TEST THIS APPLICATION
 To test this application, get the port of the app that Docker mapped by running this command
 ```
 sudo docker ps
@@ -46,7 +46,7 @@ Welcome to SCA Cloud School Application
 ```
 and this will output the text **Welcome to SCA Cloud School Application**
 
-#TO DEPLOY TO DOCKERHUB
+# TO DEPLOY TO DOCKERHUB
 For deployment to dockerhub;
 Run this command, 
 `sudo docker push deborahemeni/sca-cloud-app`
