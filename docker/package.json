@@ -1,0 +1,13 @@
+{
+    "name": "sca_cloud_school_application",
+    "version": "1.0.0",
+    "description": "Contains a Dockerfile which displays a webpage and a text",
+    "author": "Deborah Emeni <deborah.emeni@gmail.com>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.16.1"
+    }
+}
